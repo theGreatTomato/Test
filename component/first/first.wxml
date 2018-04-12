@@ -1,0 +1,5 @@
+<!--component/first/first.wxml-->
+<view class = 'contain'>
+  这是我的第一个组件
+  <view>{{ name }}:{{ ids }}</view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "first": "../../component/first/first"
+  },
+  "navigationBarTitleText": "上传测试页面"
+} 

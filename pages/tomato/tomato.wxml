@@ -1,0 +1,15 @@
+<!--pages/tomato/tomato.wxml-->
+
+<view>
+    <button bindgetuserinfo='getUserInfo' open-type='getUserInfo'>yomayo 
+    </button>
+</view>
+<import src="module.wxml"/>
+<template is="a" data = "{{ item }}"/>
+
+<text style = 'color:red'>tomato</text>
+<first name = "{{componentData.name}}" ids="{{componentData.id}}"></first>
+<button bindtap='upload'>图片上传</button>
+<image hidden="{{!upload.chooseImage}}" id = 'prevImage' src = "{{ upload.originImageUrl }}"></image>
+<button hidden="{{!upload.chooseImage}}" bindtap='uploadnow'>上传</button>
+<canvas id = 'mycanvas' hidden='true'></canvas>

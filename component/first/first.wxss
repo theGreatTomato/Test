@@ -1,0 +1,4 @@
+/* component/first/first.wxss */
+.contain{
+  color:aqua;
+}

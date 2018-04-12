@@ -1,0 +1,4 @@
+/* pages/tomato/tomato.wxss */
+.contain{
+  color:red;
+}

@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:key = "{{index}}" wx:for="{{logs}}" wx:for-item="log">
+    <text  hidden="true" class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+  <form>
+    评论：
+    <textarea auto-focus = "true"  focus = 'true'></textarea>
+    <button bindtap='getData' >啥</button>
+  </form>
+</view>
